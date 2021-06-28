@@ -17,11 +17,60 @@ header h1{
 }
 #autore, #data-text{
     color:grey;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Suez One', serif;
     font-size:15px;
 }
 .immagini-tim img{
     object-fit: cover;
     width: 49%;
     height: 250px;
+    margin-top:5px;
+}
+#testo-evidenziato{
+    background-color: yellow;
+}
+table {
+    border-collapse: collapse;
+    width:100%;
+    text-align: left;
+}
+th{
+    text-align:center;
+    padding:10px;
+    background-color:rgb(36, 120, 230);
+    color:white;
+    font-size:15px;
+}
+td{
+    font-size:15px;
+    padding:0 50px;
+    margin:0;
+}
+#tbody{
+    background-color: #6fc5f7;
+}
+#consiglio-footer{
+    color:grey;
+    font-family: 'Suez One', serif;
+    font-size:15px;
+}
+.articolo-uno{
+    color:white;
+    font-size: 20px;
+    background-image: url(../img/monitor.jpg);
+    object-fit: cover;
+    width:30%;
+    height:200px;
+    margin: 5px 0;
+}
+.articolo-due{
+    color: white;
+    font-size:20px;
+    background-image: url(../img/graph.jpg);
+    object-fit: cover;
+    width:30%;
+    height:200px;
+}
+.testo-articoli{
+    padding:10px;
 }
