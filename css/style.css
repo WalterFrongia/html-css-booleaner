@@ -1,0 +1,27 @@
+body{
+    margin:auto;
+    width:50%;
+}
+.immagine-header{
+    height:100px;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: #66a6f0;
+}
+#logo{
+    width: 25%;
+    margin-top:40px;
+}
+header h1{
+    margin-bottom: 0;
+}
+#autore, #data-text{
+    color:grey;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size:15px;
+}
+.immagini-tim img{
+    object-fit: cover;
+    width: 49%;
+    height: 250px;
+}
